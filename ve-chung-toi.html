@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Về chúng tôi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .team-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      gap: 30px;
+    }
+
+    .member {
+      width: 280px;
+      text-align: center;
+      font-family: 'Rajdhani', sans-serif;
+    }
+
+    .member img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.3);
+    }
+
+    .member h4 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+      color: #00ffff;
+    }
+
+    .member p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div id="header">
+    <h1>Về chúng tôi</h1>
+  </div>
+
+  <!-- NAVIGATION -->
+  <div id="nav">
+    <a href="index.html">Trang chủ</a>
+    <a href="ve-chung-toi.html">Về chúng tôi</a>
+    <a href="dinh-huong.html">Định hướng</a>
+    <a href="tong-quan-nganh.html">Tổng quan ngành</a>
+    <a href="hoc-tap-dao-tao.html">Học tập - Đào tạo</a>
+    <a href="co-hoi.html">Cơ hội</a>
+    <button id="toggle-theme">🌙</button>
+  </div>
+
+  <!-- NỘI DUNG -->
+  <div id="content">
+    <p class="fade-in">
+      Chúng mình là một nhóm học sinh THPT cùng chung niềm đam mê với công nghệ, sáng tạo và khát khao khám phá tương lai. Trong thời đại mà Trí tuệ nhân tạo đang dần trở thành một phần không thể thiếu của cuộc sống, chúng mình tin rằng việc hiểu rõ ngành nghề Kỹ sư AI sẽ giúp các bạn trẻ có định hướng rõ ràng hơn cho hành trình phía trước.
+      <br><br>
+      Website này là kết quả của nhiều tuần cùng nhau học hỏi, nghiên cứu, viết lách, thiết kế và lập trình – với mong muốn tạo ra một không gian thân thiện, dễ hiểu và truyền cảm hứng cho các bạn học sinh THPT đang tìm kiếm con đường nghề nghiệp phù hợp với bản thân.
+    </p>
+
+    <h3 class="fade-in">🎯 Mục tiêu của nhóm</h3>
+    <ul class="fade-in">
+      <li>Giúp học sinh THPT hiểu rõ ngành nghề Kỹ sư AI: từ khái niệm, ứng dụng, đến cơ hội nghề nghiệp thực tế.</li>
+      <li>Cung cấp thông tin chính xác, dễ tiếp cận và gần gũi: không khô khan, không quá học thuật, mà là một hành trình khám phá thú vị.</li>
+      <li>Truyền cảm hứng học tập và sáng tạo: để mỗi bạn trẻ đều thấy rằng mình có thể trở thành một phần của thế giới công nghệ tương lai.</li>
+      <li>Khơi dậy tinh thần chủ động học hỏi: từ việc viết một dòng code đầu tiên đến việc dám mơ lớn và hành động.</li>
+    </ul>
+
+    <h3 class="fade-in">🧑‍💻 Thành viên nhóm</h3>
+    <div class="team-container fade-in">
+      <div class="member">
+        <!-- Thay ảnh tại đây -->
+        <img src="images/the-anh.jpg" alt="Lê Diệp Thế Anh">
+        <h4>Lê Diệp Thế Anh</h4>
+        <p><em>Trưởng nhóm – Biên soạn nội dung & xây dựng trang web</em></p>
+        <p>“Mình tin rằng công nghệ không chỉ là công cụ, mà là ngôn ngữ mới của thế giới. Mỗi dòng code là một viên gạch xây nên tương lai – và mình muốn là người đặt những viên đầu tiên cho thế hệ của chính mình.”</p>
+      </div>
+
+      <div class="member">
+        <!-- Thay ảnh tại đây -->
+        <img src="images/thuy-truc.jpg" alt="Đặng Thụy Thủy Trúc">
+        <h4>Đặng Thụy Thủy Trúc</h4>
+        <p><em>Thiết kế giao diện & xây dựng trang web</em></p>
+        <p>“Thiết kế là cách mình kể chuyện mà không cần dùng lời. Mình muốn mỗi trang web không chỉ đẹp, mà còn khiến người xem cảm thấy được chào đón, được truyền cảm hứng, và muốn khám phá thêm.”</p>
+      </div>
+
+      <div class="member">
+        <!-- Thay ảnh tại đây -->
+        <img src="images/mai-phuong.jpg" alt="Tạ Thị Mai Phương">
+        <h4>Tạ Thị Mai Phương</h4>
+        <p><em>Biên soạn nội dung & xây dựng trang web</em></p>
+        <p>“Mình tin rằng nội dung hay không chỉ để đọc – mà để chạm đến người đọc. Mỗi câu chữ mình viết đều mang theo một thông điệp: rằng công nghệ không xa vời, và ai cũng có thể bắt đầu từ chính hôm nay.”</p>
+      </div>
+    </div>
+  </div>
+
+<!-- PHẦN FOOTER -->
+  <div id="footer">
+    <p>© Nhóm AI Explorer – Năm học 2025–2026</p>
+    <p><a href="https://chatbot.example.com" target="_blank">Hỏi đáp với chatbot</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
