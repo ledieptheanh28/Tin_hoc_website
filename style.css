@@ -111,6 +111,7 @@ body.light-mode {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .image-row img {
@@ -120,3 +121,4 @@ body.light-mode {
     display: block;
     border-radius: 6px;
   }
+
