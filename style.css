@@ -106,12 +106,11 @@ body.light-mode {
 
   .image-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;                 /* khoảng hở giữa ảnh */
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .image-row img {
@@ -121,4 +120,5 @@ body.light-mode {
     display: block;
     border-radius: 6px;
   }
+
 
