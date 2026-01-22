@@ -121,4 +121,25 @@ body.light-mode {
     border-radius: 6px;
   }
 
+.logo-group {
+    position: fixed;       /* nếu header đã fixed thì có thể bỏ dòng này */
+    top: 12px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 9999;
+  }
+
+  .logo-group img {
+    height: 40px;          /* chỉnh size logo tại đây */
+    width: auto;
+    display: block;
+  }
+
+  .logo-home {
+    cursor: pointer;
+  }
+
+
 
