@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <title>Học tập - Đào tạo</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="logo-group">
+    <div class="logo-group">
     <!-- Logo 1: bấm về trang chủ -->
     <a href="index.html" class="logo-home">
-       <img src="images/logo-home.png" alt="Trang chủ">
+       <img src="logo-home.png" alt="Trang chủ">
     </a>
+
   <!-- Logo 2 -->
-    <img src="images/logo-second.png" alt="Logo phụ" class="logo-second">
+    <img src="logo-second.png" alt="Logo phụ" class="logo-second">
   </div>
   <div id="header">
-    <h1><strong>Học tập – Đào tạo ngành Kỹ sư AI</strong></h1>
+    <h1>Học tập - đào tạo ngành nghề Kỹ sư AI</h1>
   </div>
 
   <div id="nav">
@@ -31,7 +31,7 @@
 
   <div id="content">
 
-    <h2 class="fade-in">📘 <strong>Mục lục</strong></h2>
+    <h2 class="fade-in">📘 Mục lục</h2>
     <ul class="fade-in">
       <li><a href="#lo-trinh">1. Lộ trình học tập và chương trình đào tạo</a></li>
       <li>
@@ -53,7 +53,7 @@
       </li>
     </ul>
 
-    <h2 id="lo-trinh" class="fade-in">🎓 <strong>1. Lộ trình học tập và chương trình đào tạo</strong></h2>
+    <h2 id="lo-trinh" class="fade-in">🎓 1. Lộ trình học tập và chương trình đào tạo</h2>
     <p class="fade-in">Một lộ trình học tập tiêu chuẩn để trở thành kỹ sư AI có thể chia thành 3 giai đoạn:</p>
 
     <h3 class="fade-in">🧱 Giai đoạn 1: Nền tảng (năm 1–2)</h3>
@@ -87,7 +87,7 @@
     </ul>
     <!-- 📷 Chèn logo các nền tảng học trực tuyến, ảnh lớp học bootcamp -->
 
-    <h2 id="dai-hoc" class="fade-in">🏫 <strong>2. Các trường đại học trong và ngoài nước</strong></h2>
+    <h2 id="dai-hoc" class="fade-in">🏫 2. Các trường đại học trong và ngoài nước</h2>
 
     <h3 class="fade-in">🇻🇳 Tại Việt Nam</h3>
 
@@ -156,10 +156,15 @@
   </p>
   <p>© 2026 Nhóm Kỹ sư AI – Hỗ trợ định hướng nghề nghiệp cho học sinh THPT</p>
 </div>
-
+<div id="comments">
+  <h2>Bình luận</h2>
+  <form id="comment-form">
+    <textarea id="comment-input" placeholder="Viết bình luận..." required></textarea>
+    <button type="submit">Gửi</button>
+  </form>
+  <div id="comment-list"></div>
+</div>
   <script src="script.js"></script>
 </body>
 
 </html>
-
-
