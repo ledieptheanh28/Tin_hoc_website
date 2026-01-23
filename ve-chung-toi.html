@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>Về chúng tôi</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <style>
   .team-container {
@@ -53,15 +52,18 @@
 </style>
 </head>
 <body>
-
   <!-- HEADER -->
-   <div class="logo-group">
+    <div class="logo-group">
     <!-- Logo 1: bấm về trang chủ -->
     <a href="index.html" class="logo-home">
-       <img src="images/logo-home.png" alt="Trang chủ">
+       <img src="logo-home.png" alt="Trang chủ">
     </a>
+
   <!-- Logo 2 -->
-    <img src="images/logo-second.png" alt="Logo phụ" class="logo-second">
+    <img src="logo-second.png" alt="Logo phụ" class="logo-second">
+  </div>
+  <div id="header">
+    <h1>Về chúng tôi</h1>
   </div>
 
   <!-- NAVIGATION -->
@@ -95,7 +97,7 @@
     <div class="team-container fade-in">
       <div class="member">
         <!-- Thay ảnh tại đây -->
-        <img src="images/the-anh.png" alt="Lê Diệp Thế Anh">
+        <img src="the-anh.png" alt="Lê Diệp Thế Anh">
         <h4>Lê Diệp Thế Anh</h4>
         <p><em>Trưởng nhóm – Biên soạn nội dung & xây dựng trang web</em></p>
         <p>“Mình tin rằng công nghệ không chỉ là công cụ, mà là ngôn ngữ mới của thế giới. Mỗi dòng code là một viên gạch xây nên tương lai – và mình muốn là người đặt những viên đầu tiên cho thế hệ của chính mình.”</p>
@@ -103,7 +105,7 @@
 
       <div class="member">
         <!-- Thay ảnh tại đây -->
-        <img src="images/thuy-truc.png" alt="Đặng Thụy Thủy Trúc">
+        <img src="thuy-truc.png" alt="Đặng Thụy Thủy Trúc">
         <h4>Đặng Thụy Thủy Trúc</h4>
         <p><em>Thiết kế giao diện & xây dựng trang web</em></p>
         <p>“Thiết kế là cách mình kể chuyện mà không cần dùng lời. Mình muốn mỗi trang web không chỉ đẹp, mà còn khiến người xem cảm thấy được chào đón, được truyền cảm hứng, và muốn khám phá thêm.”</p>
@@ -111,13 +113,21 @@
 
       <div class="member">
         <!-- Thay ảnh tại đây -->
-        <img src="images/mai-phuong.png" alt="Tạ Thị Mai Phương">
+        <img src="mai-phuong.png" alt="Tạ Thị Mai Phương">
         <h4>Tạ Thị Mai Phương</h4>
         <p><em>Biên soạn nội dung & xây dựng trang web</em></p>
         <p>“Mình tin rằng nội dung hay không chỉ để đọc – mà để chạm đến người đọc. Mỗi câu chữ mình viết đều mang theo một thông điệp: rằng công nghệ không xa vời, và ai cũng có thể bắt đầu từ chính hôm nay.”</p>
       </div>
     </div>
   </div>
+  <div id="comments">
+  <h2>Bình luận</h2>
+  <form id="comment-form">
+    <textarea id="comment-input" placeholder="Viết bình luận..." required></textarea>
+    <button type="submit">Gửi</button>
+  </form>
+  <div id="comment-list"></div>
+</div>
 
 <!-- PHẦN FOOTER -->
 <div id="footer">
@@ -131,7 +141,6 @@
 </body>
 
 </html>
-
 
 
 
