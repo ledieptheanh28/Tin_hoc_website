@@ -196,3 +196,23 @@ body.light-mode::before {
   border-radius: 4px;
   font-size: 12px;
 }
+.story {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;   /* ảnh không méo */
+  border-radius: 12px; /* vuông bo góc */
+  flex-shrink: 0;      /* không bị ép nhỏ */
+}
+
+.text {
+  flex: 1;
+}
+
+
