@@ -1,21 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <title>Trang chủ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="home-page">
-
+<body>
   <!-- PHẦN HEADER -->
-  <div class="logo-group">
+    <div class="logo-group">
     <!-- Logo 1: bấm về trang chủ -->
     <a href="index.html" class="logo-home">
-       <img src="images/logo-home.png" alt="Trang chủ">
+       <img src="logo-home.png" alt="Trang chủ">
     </a>
+
   <!-- Logo 2 -->
-    <img src="images/logo-second.png" alt="Logo phụ" class="logo-second">
+    <img src="logo-second.png" alt="Logo phụ" class="logo-second">
+  </div>
+  <div id="header">
+    <h1>Khám phá về ngành nghề Kỹ sư AI</h1>
   </div>
 
   <!-- PHẦN NAVIGATION MENU -->
@@ -42,12 +45,7 @@
       <br><br>
       Tại đây, bạn sẽ được khám phá toàn diện về ngành nghề Kỹ sư AI: từ kiến thức nền tảng, lộ trình học tập, kỹ năng cần có, đến cơ hội nghề nghiệp và câu chuyện truyền cảm hứng từ những người trẻ đã thành công.
       <br><br>
-      <strong>Mục tiêu của chúng tôi:</strong>
-      <ul>
-        <li>Giúp bạn hiểu rõ ngành nghề Kỹ sư AI là gì và vì sao nó quan trọng trong thời đại số.</li>
-        <li>Cung cấp định hướng học tập và lựa chọn trường đại học phù hợp.</li>
-        <li>Khơi dậy đam mê công nghệ và tinh thần khám phá tương lai.</li>
-      </ul>
+     Mục tiêu của chúng tôi là giúp bạn hiểu rõ hơn ngành nghề kỹ sư AI là gì và vì sao nó lại quan trọng trong thời đại số. Đồng thời, chúng tôi muốn cung cấp định hướng học tập và giúp bạn lựa chọn các nơi đào tạo phù hợp. Và quan trọng hơn hết, chúng tôi mong muốn khơi dậy đam mê công nghệ và tinh thần khám phá tương lai ở thế hệ trẻ.
     </p>
 
     <h3 class="fade-in">📰 Tin tức nổi bật</h3>
@@ -56,14 +54,22 @@
       📌 <iframe src="https://vietnamnet.vn/cong-nghe/ai" width="100%" height="800"></iframe>
     </p>
     <p class="fade-in">
-      <img class="image-row" src="images/image1.jpg" alt="AI Image 1">
-      <img class="image-row" src="images/image2.jpg" alt="AI Image 2">
-      <img class="image-row" src="images/image3.jpg" alt="AI Image 3">
+      <img class="image-row" src="image1.jpg" alt="AI Image 1">
+      <img class="image-row" src="image2.jpg" alt="AI Image 2">
+      <img class="image-row" src="image3.jpg" alt="AI Image 3">
+<div id="comments">
+  <h2>Bình luận</h2>
+  <form id="comment-form">
+    <textarea id="comment-input" placeholder="Viết bình luận..." required></textarea>
+    <button type="submit">Gửi</button>
+  </form>
+  <div id="comment-list"></div>
+</div>
       <!-- Ghi chú: Bạn có thể chèn hình ảnh minh họa tại đây -->
       <!-- Ví dụ: <img src="images/hoc-sinh-ai.jpg" alt="Học sinh tương tác với AI" class="illustration"> --
   </div>
 
-  <!-- PHẦN FOOTER -->
+  <-- PHẦN FOOTER -->
   <div id="footer">
   <p>📧 Liên hệ: 
     <a href="mailto:nhom.ai.support@gmail.com">nhom.ai.support@gmail.com</a>
@@ -75,7 +81,6 @@
 </body>
 
 </html>
-
 
 
 
