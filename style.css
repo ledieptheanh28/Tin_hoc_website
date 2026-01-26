@@ -75,7 +75,22 @@ body.light-mode #comments {
   background-color: rgba(255,255,255,0.6); /* nền trắng mờ */
   color: #000000; /* chữ đen */
 }
+/* Liên kết ở thanh điều hướng (sáng) */
+body.light-mode #nav a {
+  color: #00ffff; /* giữ neon xanh */
+}
+body.light-mode #nav a:hover {
+  color: #333333;
+}
 
+/* Liên kết ở mục lục (sáng) */
+body.light-mode .link-box a {
+  color: #cc99ff; /* giữ tím neon */
+}
+body.light-mode .link-box a:hover {
+  color: #333333;
+  text-shadow: 0 0 6px #ffffff;
+}
 /* Header */
 #header {
   background-color: rgba(0,0,0,0.5); /* trong suốt mờ */
@@ -314,6 +329,7 @@ body.light-mode #comments {
   pointer-events: none; /* không chặn click */
   z-index: 9999;
 }
+
 
 
 
