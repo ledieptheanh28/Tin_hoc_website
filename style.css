@@ -206,6 +206,14 @@ body.light-mode::before {
   border-radius: 14px;
 }
 
+.school {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+
 
 
 
