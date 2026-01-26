@@ -219,6 +219,39 @@ body.light-mode::before {
   object-fit: cover;
   border-radius: 14px;
 }
+.link-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px 0;   /* căn trái, bỏ auto */
+  box-shadow: 0 0 12px rgba(0,255,255,0.3);
+  text-align: left; /* đảm bảo chữ căn trái */
+}
+
+.link-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-box li {
+  margin-bottom: 14px;
+}
+
+.link-box a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cc99ff; /* tím neon */
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.link-box a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px #cc99ff;
+}
 
 
 
