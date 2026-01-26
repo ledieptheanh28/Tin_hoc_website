@@ -224,12 +224,8 @@ body.light-mode::before {
   color: #ffffff;
   text-shadow: 0 0 6px #cc99ff;
 }
-.contact-info {
-  color: #ffffff;       /* màu trắng */
-  font-weight: normal;  /* không đậm */
-  text-decoration: none; /* không gạch chân nếu là link */
-  font-size: 16px;      /* cỡ chữ vừa phải, bạn có thể tăng nếu muốn */
-}
+
+
 
 
 
