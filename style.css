@@ -213,6 +213,13 @@ body.light-mode::before {
   border-radius: 14px;
 }
 
+.history {
+  width: 60%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
 
 
 
