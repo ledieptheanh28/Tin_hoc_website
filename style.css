@@ -1,7 +1,6 @@
 /* Giao diện mặc định: nền tối */
 body {
   font-family: 'Arial', sans-serif;
-  font-size: 19px;
   background-color: #0f0f0f;
   color: #ffffff;
   margin: 0;
@@ -206,6 +205,7 @@ body.light-mode::before {
   object-fit: cover;     /* ảnh phủ đầy, không méo */
   border-radius: 14px;
 }
+
 
 
 
