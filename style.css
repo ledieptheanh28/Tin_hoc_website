@@ -265,30 +265,13 @@ body.light-mode::before {
   font-size: 12px;
 }
 
-/* Ghi đè khi bật chế độ sáng */
-body.light-mode #header,
-body.light-mode #nav,
-body.light-mode #content p,
-body.light-mode .link-box,
-body.light-mode .footer,
-body.light-mode #comments {
-  background-color: rgba(255, 255, 255, 0.6); /* nền trắng mờ */
-  color: #000000; /* chữ đen nổi bật */
+#content p,
+.link-box,
+.footer,
+#comments {
+  background-color: rgba(255, 255, 255, 0.2); /* nền trắng mờ */
+  color: #ffffff; /* chữ trắng nổi bật */
 }
-
-body.light-mode .link-box a {
-  color: #000000; /* link màu đen trong chế độ sáng */
-}
-
-body.light-mode .link-box a:hover {
-  color: #333333;
-  text-shadow: 0 0 6px #ffffff;
-}
-
-body.light-mode .footer-link {
-  color: #000000; /* email trong footer màu đen */
-}
-
 
 
 
