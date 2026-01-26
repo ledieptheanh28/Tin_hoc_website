@@ -273,6 +273,29 @@ body.light-mode::before {
   color: #ffffff; /* chữ trắng nổi bật */
 }
 
+.snow {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, #fff, transparent),
+    radial-gradient(2px 2px at 40px 70px, #fff, transparent),
+    radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+    radial-gradient(1px 1px at 130px 80px, #fff, transparent);
+  background-size: 200px 200px;
+  animation: snow 15s linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes snow {
+  to {
+    transform: translateY(50%);
+  }
+}
+
 
 
 
