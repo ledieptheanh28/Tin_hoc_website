@@ -331,6 +331,12 @@ body.light-mode .link-box a:hover {
   pointer-events: none; /* không chặn click */
   z-index: 9999;
 }
+.school-title a {
+  text-decoration: none;   /* bỏ gạch chân */
+  font-weight: bold;       /* in đậm */
+  color: white;            /* chữ màu trắng */
+  font-size: inherit;      /* lấy cỡ chữ từ h4 */
+}
 
 
 
