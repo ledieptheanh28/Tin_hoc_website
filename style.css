@@ -239,6 +239,8 @@ body.light-mode .link-box a:hover {
   height: 500px;
   object-fit: cover;
   border-radius: 14px;
+  display: block;
+  margin: 0 auto; /* căn giữa ngang */
 }
 
 .history {
@@ -329,6 +331,7 @@ body.light-mode .link-box a:hover {
   pointer-events: none; /* không chặn click */
   z-index: 9999;
 }
+
 
 
 
