@@ -322,21 +322,13 @@ body.light-mode .link-box a:hover {
   font-size: 12px;
 }
 
-#money {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none; /* không chặn click */
-  z-index: 9999;
-}
 .school-title a {
   text-decoration: none;   /* bỏ gạch chân */
   font-weight: bold;       /* in đậm */
   color: white;            /* chữ màu trắng */
   font-size: inherit;      /* lấy cỡ chữ từ h4 */
 }
+
 
 
 
