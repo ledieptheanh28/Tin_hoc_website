@@ -240,7 +240,7 @@ body.light-mode .link-box a:hover {
   object-fit: cover;
   border-radius: 14px;
   display: block;
-  margin: 0 auto; /* căn giữa ngang */
+  margin: 10px auto; /* căn giữa ngang */
 }
 
 .history {
@@ -328,6 +328,7 @@ body.light-mode .link-box a:hover {
   color: white;            /* chữ màu trắng */
   font-size: inherit;      /* lấy cỡ chữ từ h4 */
 }
+
 
 
 
