@@ -67,8 +67,8 @@ function addComment(text, list) {
   commentDiv.appendChild(deleteBtn);
   list.appendChild(commentDiv);
 }
-<script>
-  const backToTop = document.getElementById("backToTop");
+ 
+const backToTop = document.getElementById("backToTop");
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
@@ -84,4 +84,5 @@ function addComment(text, list) {
       behavior: "smooth"
     });
   });
-</script>
+
+
