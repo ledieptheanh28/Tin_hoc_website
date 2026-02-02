@@ -328,6 +328,28 @@ body.light-mode .link-box a:hover {
   color: white;            /* chữ màu trắng */
   font-size: inherit;      /* lấy cỡ chữ từ h4 */
 }
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;               /* góc trái màn hình */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+  display: none;            /* ban đầu ẩn */
+  z-index: 999;
+  transition: opacity 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
 
 
 
