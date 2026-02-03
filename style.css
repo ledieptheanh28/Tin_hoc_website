@@ -328,6 +328,33 @@ body.light-mode .link-box a:hover {
   color: white;            /* chữ màu trắng */
   font-size: inherit;      /* lấy cỡ chữ từ h4 */
 }
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Ẩn mặc định */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: #0056b3;
+}
+
+/* Nội dung giả lập để cuộn */
+section {
+  height: 600px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
 
 
 
